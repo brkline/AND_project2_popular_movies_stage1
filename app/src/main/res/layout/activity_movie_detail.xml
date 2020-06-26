@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MovieDetailActivity">
+
+        <LinearLayout
+            android:id="@+id/title_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorTitleLinearLayout"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/title_tv_marginLeft"
+                android:layout_marginTop="@dimen/title_tv_marginTop"
+                android:layout_marginBottom="@dimen/title_tv_marginBottom"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_tv_textSize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Movie Title" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/poster_image_iv"
+            android:layout_width="@dimen/movie_detail_poster_image_iv_layout_width"
+            android:layout_height="@dimen/movie_detail_poster_image_iv_layout_height"
+            android:layout_marginStart="@dimen/movie_detail_poster_image_iv_marginStart"
+            android:layout_marginLeft="@dimen/movie_detail_poster_image_iv_marginStart"
+            android:layout_marginTop="@dimen/movie_detail_poster_image_iv_marginTop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_ll"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/release_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/release_date_tv_marginStart"
+            android:layout_marginLeft="@dimen/release_date_tv_marginStart"
+            android:layout_marginTop="@dimen/release_date_tv_marginTop"
+            android:textSize="@dimen/release_date_tv_textSize"
+            app:layout_constraintStart_toEndOf="@+id/poster_image_iv"
+            app:layout_constraintTop_toBottomOf="@+id/title_ll"
+            tools:text="2015" />
+
+        <TextView
+            android:id="@+id/average_rating_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/average_rating_tv_marginStart"
+            android:layout_marginLeft="@dimen/average_rating_tv_marginStart"
+            android:layout_marginTop="@dimen/average_rating_tv_marginTop"
+            android:textSize="@dimen/average_rating_tv_textSize"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/poster_image_iv"
+            app:layout_constraintTop_toBottomOf="@+id/release_date_tv"
+            tools:text="7.5/10" />
+
+        <TextView
+            android:id="@+id/synopsis_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/synopsis_tv_marginStart"
+            android:layout_marginLeft="@dimen/synopsis_tv_marginStart"
+            android:layout_marginTop="@dimen/synopsis_tv_marginTop"
+            android:paddingEnd="@dimen/synopsis_tv_paddingRight"
+            android:paddingRight="@dimen/synopsis_tv_paddingRight"
+            android:paddingBottom="@dimen/synopsis_tv_paddingBottom"
+            android:textSize="@dimen/synopsis_tv_textSize"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/poster_image_iv"
+            tools:text="Large TextView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
