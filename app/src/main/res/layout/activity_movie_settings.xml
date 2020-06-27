@@ -2,8 +2,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout
-        android:id="@+id/settings"
+    <fragment
+        android:id="@+id/movie_setting_fragment"
+        android:name="com.example.and_project2_popular_movies_stage1.MovieSortPreferenceFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

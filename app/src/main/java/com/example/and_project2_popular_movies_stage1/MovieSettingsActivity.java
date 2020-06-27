@@ -14,7 +14,7 @@ public class MovieSettingsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_movie_settings);
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.settings, new SettingsFragment())
+                .replace(R.id.movie_setting_fragment, new SettingsFragment())
                 .commit();
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
