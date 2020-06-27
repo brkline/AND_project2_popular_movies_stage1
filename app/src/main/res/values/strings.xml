@@ -1,0 +1,34 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">AND_project2_popular_movies_stage1</string>
+    <string name="no_movies">Nothing to display.  Please try again later.</string>
+
+    <!-- Text to display in the list when there is no Internet connection -->
+    <string name="no_internet_connection">No Internet connection found.  Please make sure
+        you are connected to the Internet and try again.</string>
+
+    <!-- Error messages-->
+    <string name="detail_error_message">Movie data not available</string>
+
+    <!-- Labels and values for Settings Menu -->
+    <string name="movie_settings_sort_label1">Popular</string>
+    <string name="movie_settings_sort_label2">Top Rated</string>
+
+    <string name="movie_settings_sort_value1">popular</string>
+    <string name="movie_settings_sort_value2">top_rated</string>
+
+    <string name="movie_settings_sort_title">Movie Sort Order</string>
+    <string name="movie_settings_sort_menu_item">Sort Order</string>
+    <string name="movie_settings_sort_default" translatable="false">@string/movie_settings_sort_value1</string>
+    <string name="movie_settings_sort_label" translatable="false">Tap to choose a Sort Order</string>
+    <string name="movie_settings_sort_key" translatable="false">section_key</string>
+
+    <string name="movie_settings_sort_order_key" translatable="false">sort_order</string>
+
+    <!-- Values for Movie Details Activity -->
+    <string name="release_date_unknown">Unknown</string>
+    <string name="average_rating">
+        <xliff:g example="6.5/10" id="rating">%1$s</xliff:g>/10
+    </string>
+    <string name="title_activity_movie_settings">activity_movie_settings</string>
+
+</resources>

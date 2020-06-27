@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movie_settings_section_labels">
+        <item>@string/movie_settings_sort_label1</item>
+        <item>@string/movie_settings_sort_label2</item>
+    </string-array>
+
+    <string-array name="movie_settings_section_values">
+        <item>@string/movie_settings_sort_value1</item>
+        <item>@string/movie_settings_sort_value2</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>

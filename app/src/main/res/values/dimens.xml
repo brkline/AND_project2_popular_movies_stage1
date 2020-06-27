@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="empty_view_padding">16dp</dimen>
+    <dimen name="main_fragment_gv_padding">8dp</dimen>
+    <dimen name="title_tv_marginLeft">16dp</dimen>
+    <dimen name="title_tv_marginTop">30dp</dimen>
+    <dimen name="title_tv_marginBottom">30dp</dimen>
+    <dimen name="title_tv_textSize">48sp</dimen>
+    <dimen name="movie_detail_poster_image_iv_layout_width">150dp</dimen>
+    <dimen name="movie_detail_poster_image_iv_layout_height">200dp</dimen>
+    <dimen name="movie_detail_poster_image_iv_marginStart">16dp</dimen>
+    <dimen name="movie_detail_poster_image_iv_marginTop">8dp</dimen>
+    <dimen name="release_date_tv_marginStart">36dp</dimen>
+    <dimen name="release_date_tv_marginTop">8dp</dimen>
+    <dimen name="release_date_tv_textSize">28sp</dimen>
+    <dimen name="average_rating_tv_marginStart">36dp</dimen>
+    <dimen name="average_rating_tv_marginTop">12dp</dimen>
+    <dimen name="average_rating_tv_textSize">16sp</dimen>
+    <dimen name="synopsis_tv_marginStart">16dp</dimen>
+    <dimen name="synopsis_tv_marginTop">24dp</dimen>
+    <dimen name="synopsis_tv_paddingRight">24dp</dimen>
+    <dimen name="synopsis_tv_paddingBottom">8dp</dimen>
+    <dimen name="synopsis_tv_textSize">16sp</dimen>
+    <dimen name="main_fragment_gv_columnWidth">185dp</dimen>
+    <dimen name="main_fragment_gv_horizontalSpacing">0dp</dimen>
+    <dimen name="main_fragment_gv_verticalSpacing">0dp</dimen>
+    <dimen name="movie_item_poster_image_iv_layout_width">200dp</dimen>
+    <dimen name="movie_item_poster_image_iv_layout_height">300dp</dimen>
+</resources>
