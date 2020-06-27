@@ -23,12 +23,12 @@
     <string name="movie_settings_sort_key" translatable="false">section_key</string>
 
     <string name="movie_settings_sort_order_key" translatable="false">sort_order</string>
+    <string name="title_activity_movie_settings">activity_movie_settings</string>
 
     <!-- Values for Movie Details Activity -->
     <string name="release_date_unknown">Unknown</string>
     <string name="average_rating">
         <xliff:g example="6.5/10" id="rating">%1$s</xliff:g>/10
     </string>
-    <string name="title_activity_movie_settings">activity_movie_settings</string>
 
 </resources>
