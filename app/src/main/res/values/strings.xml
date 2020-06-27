@@ -1,5 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">AND_project2_popular_movies_stage1</string>
+    <string name="app_name">AND Project2 Popular_movies_stage1</string>
     <string name="no_movies">Nothing to display.  Please try again later.</string>
 
     <!-- Text to display in the list when there is no Internet connection -->
