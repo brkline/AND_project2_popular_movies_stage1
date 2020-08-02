@@ -1,3 +1,5 @@
+![Project Status](https://img.shields.io/badge/project%20status-accepted-blue?style=plastic)
+<br>
 ![GitHub repo size](https://img.shields.io/github/repo-size/brkline/AND_project2_popular_movies_stage1?style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/brkline/AND_project2_popular_movies_stage1?style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/brkline/AND_project2_popular_movies_stage1?style=plastic)
