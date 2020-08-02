@@ -1,4 +1,4 @@
-![Project Status](https://img.shields.io/badge/project%20status-passed-blue?style=plastic)
+![Project Status](https://img.shields.io/badge/project%20status-passed-green?style=plastic)
 <br>
 ![GitHub repo size](https://img.shields.io/github/repo-size/brkline/AND_project2_popular_movies_stage1?style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/brkline/AND_project2_popular_movies_stage1?style=plastic)
